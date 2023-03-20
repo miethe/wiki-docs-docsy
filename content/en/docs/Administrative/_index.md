@@ -7,6 +7,3 @@ What's happening?
 '''
 +++
 
-
-
-*****
