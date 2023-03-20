@@ -1,5 +1,5 @@
-baseURL = "https://pages.github.ibm.com/BoxBoat-OpenShift-Practice/bop-wiki"
-title = "BoxBoat's OpenShift Practice Wiki"
+baseURL = "https://pages.github.ibm.com/BoxBoat-OpenShift-Practice/wiki-template"
+title = "BoxBoat's Wiki Template"
 
 # Language settings
 contentDir = "content/en"
@@ -13,7 +13,7 @@ enableRobotsTXT = true
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
-refLinksNotFoundURL = "https://pages.github.ibm.com/BoxBoat-OpenShift-Practice/bop-wiki/docs/"
+refLinksNotFoundURL = "https://pages.github.ibm.com/BoxBoat-OpenShift-Practice/wiki-template"
 refLinksErrorLevel = "WARNING"
 
 # Configure how URLs look like per section.
@@ -35,8 +35,8 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "BoxBoat's OpenShift Practice Wiki"
-description = "Wiki of all info for BOP"
+title = "BoxBoat's Wiki Template"
+description = "One Wiki"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -85,12 +85,12 @@ version = "0.4"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://pages.github.ibm.com/BoxBoat-OpenShift-Practice/bop-wiki/"
+url_latest_version = "https://pages.github.ibm.com/BoxBoat-OpenShift-Practice/wiki-template/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.ibm.com/BoxBoat-OpenShift-Practice/bop-wiki"
+github_repo = "https://github.ibm.com/BoxBoat-OpenShift-Practice/wiki-template"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-# github_project_repo = "https://gitlab.com/boxboat/openshift-practice/bop-wiki"
+# github_project_repo = "https://gitlab.com/boxboat/openshift-practice/wiki-template"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -126,14 +126,6 @@ taxonomyPageHeader = ["tags", "categories"]
     name = "Documentation"
     weight = 10
     url = "/docs/"
-[[menu.main]]
-    name = "Blog"
-    weight = 20
-    url = "/blog/"
-[[menu.main]]
-    name = "Community"
-    weight = 20
-    url = "/community/"
 
 # User interface configuration
 [params.ui]
@@ -160,8 +152,8 @@ sidebar_search_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.ibm.com/BoxBoat-OpenShift-Practice/bop-wiki/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.ibm.com/BoxBoat-OpenShift-Practice/bop-wiki/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.ibm.com/BoxBoat-OpenShift-Practice/wiki-template/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.ibm.com/BoxBoat-OpenShift-Practice/wiki-template/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page,
@@ -171,11 +163,6 @@ enable = false
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-[[params.links.user]]
-  name = "Admin's Site"
-  url = "https://nick.miethe.dev"
-  icon = "fa fa-envelope"
-  desc = "Contact BOP's Lead"
 [[params.links.user]]
   name ="Twitter"
   url = "https://twitter.com/boxboat"
