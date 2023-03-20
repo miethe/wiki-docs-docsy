@@ -1,0 +1,57 @@
+// --------------------------------------------------
+// Add border under git info section, plus extra bottom margin
+// --------------------------------------------------
+.td-page-meta {
+    a {
+      display: block;
+      font-weight: $font-weight-medium;
+    }
+    border-bottom: 1.5px $primary dashed;
+    padding-bottom: 1rem !important;
+  }
+
+// --------------------------------------------------
+// Add border under section, change color for better distinction
+// --------------------------------------------------
+.td-toc {
+    nav {
+        margin-top: 1rem;
+    }
+    a{
+        color: $secondary !important;
+    }
+    border-bottom: 1.5px $primary dashed;
+
+// --------------------------------------------------
+// Change ToC formatting to improve readability
+// --------------------------------------------------
+    li {
+        a {
+            font-weight: 400
+        }
+    }
+    li li {
+        margin-left: 1.5rem;
+        a {
+            font-size: .9rem;
+            font-weight: 200
+        }
+    }
+
+}
+
+// --------------------------------------------------
+// Remove section borders for cleaner look
+// --------------------------------------------------
+.taxonomy-terms-cloud {
+    h5 {
+        border-bottom: 0 !important;
+    }
+}
+
+// --------------------------------------------------
+// remove whitespace after footer
+// --------------------------------------------------
+footer {
+    min-height: auto;
+  }

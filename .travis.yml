@@ -1,0 +1,18 @@
+os: linux
+language: minimal
+install:
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.deb
+  - sudo dpkg -i hugo_extended_0.110.0_linux-amd64.deb
+  - npm install
+script:
+  - hugo
+deploy:
+  provider: pages
+  local_dir: public
+  target_branch: gh-pages
+  keep_history: false
+  github_url: github.ibm.com
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: main
