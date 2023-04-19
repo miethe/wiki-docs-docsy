@@ -61,6 +61,28 @@ This is a warning.
 This is placeholder content.
 {{% /pageinfo %}}
 
+#### Boxes
+
+{{< box info >}}
+  Test info box
+{{< /box >}}
+
+{{< box warning >}}
+  Test warning box
+{{< /box >}}
+
+{{< box tip >}}
+  Test tip box
+{{< /box >}}
+
+{{< box important >}}
+  Test important box
+{{< /box >}}
+
+#### GitHub API
+
+{{< github-api url="https://api.github.com/users/miethe/starred?per_page=3" >}}
+
 #### iframe
 [iframes](https://www.w3schools.com/tags/tag_iframe.asp)
 
